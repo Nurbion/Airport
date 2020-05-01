@@ -1,0 +1,2 @@
+hello: air1.c
+	g++ -o lb air1.cpp

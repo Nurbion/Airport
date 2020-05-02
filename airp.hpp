@@ -13,7 +13,7 @@ class airport{
 
        void random (){
             srand( time(NULL) );
-            numb= 1+ rand() % 1000;
+            numb= 1+ rand() % 900 + 100;
             cout<<numb<<endl;
         }
 };
